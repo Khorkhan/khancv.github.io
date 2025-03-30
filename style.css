@@ -6,3 +6,44 @@ body {
 }
 
 .container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+ }
+
+ .job-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+ }
+
+ .contact {
+    font-size: 14px;
+    color: #555;
+ }
+
+ h3 {
+    color: green;
+    margin-top: 20px;
+ }
+
+ p, ul {
+    font-size: 14px;
+    color: #333;
+ }
+
+ a {
+    color: blue;
+    text-align: none;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
